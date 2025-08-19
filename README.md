@@ -173,83 +173,11 @@ curl -X DELETE http://localhost:8000/api/tasks/1
 
 ---
 
-## 🚀 Installation
-
-### Backend (Laravel)
-
-**Prerequisites:**
-
-- Composer
-- PHP 8.2
-- PostgreSQL
-
-To run the backend, you need to have Composer installed. You can download it from [here](https://getcomposer.org/download/).
-
-#### Prerequisites
-
-1. Install PHP (if not already installed) on macOS:
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://php.new/install/mac/8.2)"
-   ```
-
-#### Setup Instructions
-
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/damoncoders/hmcts-task-manager-new
 ```
-
-2. Install Laravel dependencies:
-
-   ```bash
-   cd backend
-   composer install
-   ```
-
-3. Configure environment and database:
-
-   a. Copy the .env.example file to .env:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   b. Ensure the database is set up in the .env file:
-
-   ```bash
-   DB_CONNECTION=pgsql
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_DATABASE=backend
-   DB_USERNAME=postgres
-   DB_PASSWORD=postgres
-   ```
-
-   > **Note:** Make sure PostgreSQL is installed and running on your system before proceeding. You can download it from [here](https://www.postgresql.org/download/).
-
-4. Generate application key:
-
-   ```bash
-   php artisan key:generate
-   ```
-
-5. Run database migrations:
-
-   ```bash
-   php artisan migrate
-   ```
-
-6. Start the development server:
-
-   ```bash
-   php artisan serve
-   ```
-
-7. Run tests:
-   ```bash
-   php artisan test
-   ```
 
 ### Frontend (Next.js)
 
