@@ -255,6 +255,13 @@ git clone https://github.com/your-username/task-manager.git
 
 #### Setup Instructions
 
+**Prerequisites:**
+
+- Node.js 20
+- pnpm
+
+To run the frontend, you need to have Node.js and pnpm installed. You can download them from [here](https://nodejs.org/en/download/) and [here](https://pnpm.io/installation).
+
 1. Install dependencies:
 
    ```bash
@@ -293,9 +300,6 @@ cd frontend
 pnpm run test
 ```
 
-```
-
-```
 
 ## 📝 Project Notes
 
