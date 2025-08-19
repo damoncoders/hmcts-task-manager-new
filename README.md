@@ -257,7 +257,7 @@ To run the backend, you need to have Composer installed. You can download it fro
 
 **Prerequisites:**
 
-- Node.js 20
+- Node.js 22
 - pnpm
 
 To run the frontend, you need to have Node.js and pnpm installed. You can download them from [here](https://nodejs.org/en/download/) and [here](https://pnpm.io/installation).
